@@ -90,16 +90,11 @@ h3 {
   width: 100%;
 }
 .factory {
-  display: flex;
-  background-color: orangered;
-  padding: 25px 25px 25px 25px;
+  /* display: flex; */
+  padding: 50px 25px 25px 40px;
 }
 .factory p {
-  width: 50%;
-}
-iframe {
-  background-color: orchid;
-  width: 40vw;
+margin-right: 10%;
 }
 .manufactoring {
   display: flex;
@@ -161,6 +156,9 @@ h4 {
     margin-left: 15%;
     margin-right: 15%;
   }
+  .factory {
+    display: flex;
+  }
 }
 /* footer mobile */
 footer {
@@ -173,6 +171,9 @@ footer {
   height: 328px;
   color: var(--whiteish);
   background-color: var(--red);
+}
+.logo-footer{
+width: 100px;
 }
 .links {
   width: 100%;
