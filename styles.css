@@ -53,6 +53,9 @@ h1{
   font-weight: bold;
   margin-left: 12%
 }
+p{
+  font-weight: lighter;
+}
 .hero-text p {
   width: 60%;
   margin-left: 12%;
@@ -96,7 +99,6 @@ iframe {
 .container {
   height: 30%;
   width: 100%;
-
 }
 .corusel-image {
   height: 200px;
@@ -137,5 +139,8 @@ h4{
   h1{
     font-size: 5rem;
   }
-
+  .container p{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
