@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
 * {
   box-sizing: border-box;
 }
-:root{
-  --red:#3D1519;
-  --whiteish:#FAF6F6;
-  --creme:#fce3c5;
+:root {
+  --red: #3d1519;
+  --whiteish: #faf6f6;
+  --creme: #fce3c5;
 }
 body,
 html {
   height: 100vh;
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   background-color: var(--whiteish);
 }
 .hero-violin {
@@ -26,9 +26,9 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.logo{
+.logo {
   height: 40px;
-  position:absolute;
+  position: absolute;
   top: 5%;
   left: 5%;
 }
@@ -48,13 +48,16 @@ nav {
   /* transform: translate(-50%, -50%); */
   color: white;
 }
-h1{
-  font-size: 3rem ;
+h1 {
+  font-size: 3rem;
   font-weight: bold;
-  margin-left: 12%
+  margin-left: 12%;
 }
-p{
+p {
   font-weight: lighter;
+}
+h3 {
+  margin-top: 20px;
 }
 .hero-text p {
   width: 60%;
@@ -111,15 +114,15 @@ article {
   padding: 20px;
   text-align: center;
 }
-h4{
+h4 {
   margin-top: 5%;
   font-size: 28px;
 }
-@media screen and (min-width: 850px){
-  .logo{
+@media screen and (min-width: 850px) {
+  .logo {
     height: 60px;
   }
-  nav{
+  nav {
     display: flex;
   }
   .navigation-link {
@@ -131,15 +134,15 @@ h4{
     justify-content: center;
     top: 40%;
   }
-  .hero-text p{
-  width: 500px;
-  font-size: 1.5rem;
-  margin-right: 10%;
+  .hero-text p {
+    width: 500px;
+    font-size: 1.5rem;
+    margin-right: 10%;
   }
-  h1{
+  h1 {
     font-size: 5rem;
   }
-  .container p{
+  .container p {
     margin-left: 15%;
     margin-right: 15%;
   }
