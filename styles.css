@@ -17,30 +17,45 @@ html {
 .hero-violin {
   object-fit: cover;
   width: 100vw;
-  height: 400px;
+  height: 650px;
   background-position: center;
 }
 nav {
   position: absolute;
-  top: 5%;
+  top: 8%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.logo{
+  height: 40px;
+  position:absolute;
+  top: 5%;
+  left: 5%;
 }
 .navigation-link {
   text-decoration: none;
   color: white;
+  font-size: 18px;
   margin-left: 10px;
   margin-right: 10px;
 }
 .hero-text {
   position: absolute;
-  top: 30%;
-  left: 45%;
-  transform: translate(-50%, -50%);
+  /* display: flex; */
+  justify-content: center;
+  top: 25%;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
   color: white;
 }
+h1{
+  font-size: 3rem ;
+  font-weight: bold;
+  margin-left: 12%
+}
 .hero-text p {
-  width: 300px;
+  width: 60%;
+  margin-left: 12%;
 }
 /* Products */
 .products {
@@ -95,4 +110,23 @@ article {
   background-color: aquamarine;
   padding: 20px;
   text-align: center;
+}
+@media screen and (min-width: 850px){
+  .logo{
+    height: 60px;
+  }
+  .hero-text {
+    display: flex;
+    justify-content: center;
+    top: 40%;
+  }
+  .hero-text p{
+  width: 500px;
+  font-size: 1.5rem;
+  margin-right: 10%;
+  }
+  h1{
+    font-size: 5rem;
+  }
+
 }
