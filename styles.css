@@ -35,7 +35,7 @@ nav {
 .navigation-link {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -96,8 +96,7 @@ iframe {
 .container {
   height: 30%;
   width: 100%;
-  border: olive solid 3px;
-  border-radius: 5%;
+
 }
 .corusel-image {
   height: 200px;
@@ -107,14 +106,24 @@ iframe {
   margin-top: 10px;
 }
 article {
-  background-color: aquamarine;
   padding: 20px;
   text-align: center;
+}
+h4{
+  margin-top: 5%;
+  font-size: 28px;
 }
 @media screen and (min-width: 850px){
   .logo{
     height: 60px;
   }
+  nav{
+    display: flex;
+  }
+  .navigation-link {
+    font-size: 18px;
+  }
+
   .hero-text {
     display: flex;
     justify-content: center;
