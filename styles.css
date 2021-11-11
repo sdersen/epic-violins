@@ -13,6 +13,7 @@ html {
   margin: 0;
   font-family: "Merriweather", serif;
   background-color: var(--whiteish);
+  font-size: 14px;
 }
 .hero-violin {
   object-fit: cover;
@@ -71,6 +72,11 @@ p {
 h3 {
   margin-top: 20px;
 }
+h4 {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  color: var(--red);
+}
 .hero-text p {
   width: 60%;
   margin-left: 12%;
@@ -89,6 +95,18 @@ h3 {
 .violin > img {
   width: 100%;
 }
+
+/* försök till att få fram text vid hover */
+/* .violin > img:hover {
+  display: none;
+}
+.box {
+  display: none;
+}
+.violin > img:hover .box {
+  display: block;
+} */
+
 .factory {
   display: flex;
   background-color: orangered;
@@ -101,17 +119,35 @@ iframe {
   background-color: orchid;
   width: 40vw;
 }
-.manufactoring {
+.manufacturing {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .man-item {
-  height: 250px;
+  height: 322px;
   width: 175px;
   margin: 1rem;
-  background-color: palegoldenrod;
+  background-color: var(--whiteish);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+  transition: 0.2s ease-in;
+}
+.man-item > h4 {
+  text-align: center;
+}
+.man-item > p {
+  padding: 5px 10px 15px 10px;
+  margin-bottom: 0;
+}
+.man-item > img {
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+.man-item:hover {
+  outline: var(--red) solid 2px;
+  transform: scale(1.05);
 }
 /* Karusellen */
 .container {
@@ -129,10 +165,11 @@ article {
   padding: 20px;
   text-align: center;
 }
-h4 {
+/* finns ingen h4 i karusellen? */
+/* h4 {
   margin-top: 5%;
   font-size: 28px;
-}
+} */
 @media screen and (min-width: 850px) {
   .logo {
     height: 60px;
@@ -170,9 +207,10 @@ footer {
   gap: 30px;
   padding-top: 30px;
   width: 100%;
-  height: 328px;
+  height: 340px;
   color: var(--whiteish);
   background-color: var(--red);
+  margin-bottom: 0;
 }
 .links {
   width: 100%;
