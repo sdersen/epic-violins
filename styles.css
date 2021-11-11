@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
 * {
   box-sizing: border-box;
+}
+:root{
+  --red:#3D1519;
+  --whiteish:#FAF6F6;
+  --creme:#fce3c5;
 }
 body,
 html {
   height: 100vh;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Merriweather', serif;
+  background-color: var(--whiteish);
 }
 .hero-violin {
   object-fit: cover;
