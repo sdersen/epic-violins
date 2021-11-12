@@ -13,7 +13,7 @@
     />
     <!-- Our CSS -->
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Epic Violins</title>
   </head>
   <body>
@@ -24,10 +24,19 @@
         <a class="navigation-link" href="">Manufacturing</a>
         <a class="navigation-link" href="">Accessories</a>
       </nav>
-      <div class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="dropdown" style="float: right">
+        <button class="dropbtn">
+          <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </button>
+        <div class="dropdown-content" style="right: 0">
+          <a href="#">Our violins</a>
+          <a href="#">Manufacturing</a>
+          <a href="#">Accessories</a>
+        </div>
       </div>
 
       <div class="hero-image">
@@ -43,23 +52,43 @@
       </div>
     </header>
     <!-- Products -->
+    <section class="products_heading">
+      <h2>Our violins</h2>
+      <h5>Handmade violins of premium quality</h5>
+    </section>
     <section class="products">
       <div class="violin">
-        <img src="/images/violin_1.png" />
         <div class="box">
+          <h4>May</h4>
+          <h6>Wood:Maple</h6>
           <p>
-            May<br />
-            Wood:Maple<br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
+            ante
+          </p>
+        </div>
+        <img src="/images/violin_1.png" />
+      </div>
+      <div class="violin">
+        <img src="/images/violin_2.png" />
+        <div class="box">
+          <h4>May</h4>
+          <h6>Wood:Maple</h6>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
             ante
           </p>
         </div>
       </div>
       <div class="violin">
-        <img src="/images/violin_2.png" />
-      </div>
-      <div class="violin">
         <img src="/images/violin_3.png" />
+        <div class="box">
+          <h4>May</h4>
+          <h6>Wood:Maple</h6>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis
+            ante
+          </p>
+        </div>
       </div>
     </section>
     <!-- factory -->
@@ -86,7 +115,7 @@
         ></iframe>
       </div> -->
     </section>
-    <!-- Manufactoring -->
+    <!-- Manufacturing -->
     <section class="manufacturing">
       <div class="man-item">
         <h4>Our material: Maple</h4>
