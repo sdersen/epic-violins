@@ -14,6 +14,7 @@ html {
   font-family: "Merriweather", serif;
   background-color: var(--whiteish);
   font-size: 14px;
+  color: var(--red);
 }
 .hero-violin {
   object-fit: cover;
@@ -68,7 +69,7 @@ h3 {
 }
 h4 {
   margin-top: 5px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--red);
 }
 h5 {
@@ -126,33 +127,45 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 20px;
 }
 .violin {
-  height: 550px;
-  width: 280px;
-  /* background-color: var(--creme);
-  border-radius: 30px; */
-  margin-top: 2rem;
+  height: 500px;
+  width: 325px;
+  margin-top: 3rem;
   display: flex;
-
-  /* outline: var(--red) solid 2px;
-  box-shadow: 5px 5px 10px gray;
-  transition: 0.2s ease-in-out; */
+  padding-left: 10px;
+  /* border-radius: 30px;
+  outline: var(--red) solid 2px;
+  box-shadow: 5px 5px 10px gray; */
+  /* transition: 0.2s ease-in-out; */
+  /* background-color: var(--creme); */
 }
 /* .violin:hover {
   transform: scale(1.05);
 } */
 .violin > img {
-  margin-top: 3.55rem;
-  margin-bottom: 3.55rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .box {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 80%;
-  margin-top: 8rem;
+  margin-top: 5rem;
+}
+.violin h4 {
+  margin-bottom: 4rem;
+}
+.violin a {
+  font-weight: 500;
+  align-self: flex-start;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: var(--red);
+}
+.violin a:hover {
+  text-decoration: underline;
 }
 
 /* försök till att få fram text vid hover */
@@ -173,6 +186,11 @@ h5 {
 .factory p {
   margin-right: 10%;
 }
+.manufacturing_heading {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
 .manufacturing {
   display: flex;
   justify-content: center;
@@ -180,8 +198,8 @@ h5 {
   flex-wrap: wrap;
 }
 .man-item {
-  height: 322px;
-  width: 175px;
+  height: 332px;
+  width: 185px;
   margin: 2rem 1rem;
   background-color: var(--creme);
   border-radius: 10px;
@@ -190,6 +208,7 @@ h5 {
 }
 .man-item > h4 {
   text-align: center;
+  font-size: 1.5rem;
 }
 .man-item > p {
   padding: 5px 10px 15px 10px;
