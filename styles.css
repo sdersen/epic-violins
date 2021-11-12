@@ -127,11 +127,12 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-top: 3rem;
 }
 .violin {
   height: 500px;
   width: 325px;
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: flex;
   padding-left: 10px;
   /* border-radius: 30px;
@@ -145,7 +146,7 @@ h5 {
 } */
 .violin > img {
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 .box {
   display: flex;
