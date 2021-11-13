@@ -168,18 +168,7 @@ h5 {
 .violin a:hover {
   text-decoration: underline;
 }
-
-/* försök till att få fram text vid hover */
-/* .violin > img:hover {
-  display: none;
-}
-.box {
-  display: none;
-}
-.violin > img:hover .box {
-  display: block;
-} */
-
+/* Factory */
 .factory {
   /* display: flex; */
   padding: 50px 25px 25px 40px;
@@ -187,6 +176,7 @@ h5 {
 .factory p {
   margin-right: 10%;
 }
+/* Manufacturing */
 .manufacturing_heading {
   text-align: center;
   padding-top: 3rem;
@@ -244,6 +234,41 @@ article {
   margin-top: 5%;
   font-size: 28px;
 } */
+
+.accessories_heading {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.accessories {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.acc-item {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: var(--red) solid 1px;
+  transition: 0.2s ease-in-out;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.acc-item:hover {
+  box-shadow: 5px 5px 10px gray;
+  transform: scale(1.01);
+}
+.acc-item > h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+/* Media queries */
 @media screen and (min-width: 850px) {
   .logo {
     height: 60px;
