@@ -131,6 +131,7 @@ h5 {
   height: 500px;
   width: 300px;
   border-radius: 30px;
+  background-color: var(--creme);
   outline: var(--red) solid 2px;
   box-shadow: 5px 5px 10px gray;
   transition: 0.2s ease-in-out;
@@ -144,8 +145,13 @@ h5 {
   padding-left: 30px;
   padding-right: 25px;
 }
-.appointment {
+.appointment-btn {
   margin-left: 65px;
+}
+.appointment-btn,
+.read-more-btn {
+  background-color: var(--yellowish);
+  border: none;
 }
 .show-card {
   display: initial;
