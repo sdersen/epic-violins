@@ -5,7 +5,9 @@
 :root {
   --red: #3d1519;
   --whiteish: #faf6f6;
-  --creme: #fce3c5;
+  --creme: #faf0e3;
+  --yellowish: #f8a83f;
+
 }
 body,
 html {
@@ -264,10 +266,15 @@ article {
   justify-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  /* margin: 1.5rem; */
+}
+.accessories_heading > h5 {
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 .acc-item {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 10px;
   border: var(--red) solid 1px;
   transition: 0.2s ease-in-out;
@@ -285,6 +292,9 @@ article {
   font-size: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 0;
+}
+.acc-item > img {
+ height: 100px;
 }
 
 /* Media queries */
