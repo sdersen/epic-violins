@@ -7,7 +7,6 @@
   --whiteish: #faf6f6;
   --creme: #faf0e3;
   --yellowish: #f8a83f;
-
 }
 body,
 html {
@@ -65,6 +64,7 @@ p {
 h2 {
   font-size: 2rem;
   color: var(--red);
+  text-align: center;
 }
 h3 {
   margin-top: 20px;
@@ -187,11 +187,10 @@ h5 {
 }
 /* Factory */
 .factory {
+  margin-left: 5%;
+  margin-top: 10%;
   /* display: flex; */
-  padding: 50px 25px 25px 40px;
-}
-.factory-text {
-  /* width: 50%; */
+  /* padding: 50px 25px 25px 40px; */
 }
 .factory p {
   margin-right: 10%;
@@ -294,7 +293,7 @@ article {
   margin-bottom: 0;
 }
 .acc-item > img {
- height: 100px;
+  height: 100px;
 }
 
 /* Media queries */
