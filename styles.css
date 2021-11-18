@@ -7,7 +7,6 @@
   --whiteish: #faf6f6;
   --creme: #faf0e3;
   --yellowish: #f8a83f;
-
 }
 body,
 html {
@@ -307,7 +306,7 @@ article {
   margin-bottom: 0;
 }
 .acc-item > img {
- height: 100px;
+  height: 100px;
 }
 
 /* Media queries */
