@@ -6,7 +6,7 @@
   --red: #3d1519;
   --whiteish: #faf6f6;
   --creme: #faf0e3;
-  --yellowish: #f8a83f;
+  --yellowish: #f80;
 }
 body,
 html {
@@ -146,12 +146,18 @@ h5 {
   padding-right: 25px;
 }
 .appointment-btn {
-  margin-left: 65px;
+  margin-left: 48px;
+  width: 200px;
 }
 .appointment-btn,
 .read-more-btn {
   background-color: var(--yellowish);
   border: none;
+  height: 40px;
+  border-radius: 6px;
+}
+.bold {
+  font-weight: bolder;
 }
 .show-card {
   display: initial;
