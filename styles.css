@@ -125,19 +125,32 @@ h5 {
 .card {
   position: absolute;
   top: 0;
+  left: 15px;
   height: 500px;
-  width: 325px;
+  width: 300px;
   border-radius: 30px;
   outline: var(--red) solid 2px;
   box-shadow: 5px 5px 10px gray;
   transition: 0.2s ease-in-out;
-  /* display: none; */
+  display: none;
+}
+.card h4 {
+  padding-left: 30px;
+}
+.card p {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 25px;
+}
+.appointment {
+  margin-left: 65px;
 }
 .show-card {
   display: initial;
 }
 .close {
-  height: 20px;
+  height: 25px;
+  transform: translate(246px, 35px);
 }
 .products_heading {
   text-align: center;
