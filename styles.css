@@ -287,6 +287,9 @@ iframe {
   margin-top: 25px;
   margin-bottom: 20px;
 }
+.container p {
+  font-style: italic;
+}
 .corusel-image {
   height: 200px;
   width: 200px;
