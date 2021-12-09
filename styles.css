@@ -379,11 +379,15 @@ article {
 .email-container p {
   text-align: center;
 }
+.sign-up-input {
+  height: 37px;
+}
 .sign-up-btn {
   background-color: var(--whiteish);
-  border: var(--red) 2px solid;
+  border: var(--red) 1px solid;
   border-radius: 6px;
   width: 80px;
+  height: 40px;
 }
 
 /* footer mobile */
