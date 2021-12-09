@@ -44,13 +44,13 @@ nav {
   margin-left: 10px;
   margin-right: 10px;
 }
+.navigation-link:hover {
+  color: var(--red);
+}
 .hero-text {
   position: absolute;
-  /* display: flex; */
   justify-content: center;
   top: 25%;
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
   color: white;
 }
 h1 {
@@ -223,6 +223,10 @@ h5 {
 .factory p {
   margin-right: 10%;
 }
+iframe {
+  height: 200px;
+  width: 340px;
+}
 
 /* Manufacturing */
 .manufacturing_heading {
@@ -326,6 +330,7 @@ article {
 .acc-item > img {
   height: 100px;
 }
+/* NEWSLETTER */
 .newsletter img {
   height: 400px;
   width: 100vw;
@@ -333,19 +338,32 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+}
+.newsletter {
+  height: 400px;
+  width: 100vw;
 }
 .email-container {
-  /* position: absolute; */
-  transform: translateY(200px);
+  top: 0%;
+  width: 90%;
+  transform: translateY(100px);
   display: flex;
-  justify-content: space-evenly;
-  /* margin-top: 20%;
-  margin-left: 20%; */
+  flex-direction: column;
+  align-items: center;
   color: var(--whiteish);
-  z-index: 1;
 }
 .email-container h2 {
   color: var(--whiteish);
+}
+.email-container p {
+  text-align: center;
+}
+.sign-up-btn {
+  background-color: var(--whiteish);
+  border: var(--red) 2px solid;
+  border-radius: 6px;
+  width: 80px;
 }
 
 /* footer mobile */
@@ -421,14 +439,26 @@ ul {
   .factory {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .factory-text {
     width: 300px;
+  }
+  .email-container {
+    transform: translateY(50px);
   }
 }
 @media screen and (min-width: 615px) {
   iframe {
     width: 560px;
     height: 315px;
+  }
+  .email-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .subscribe-text {
+    width: 300px;
+    margin: 5%;
   }
 }
